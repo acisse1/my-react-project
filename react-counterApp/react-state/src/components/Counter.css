@@ -1,0 +1,64 @@
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+.heading {
+    margin-left: 160px;
+    margin-bottom: 70px;
+}
+
+.counter {
+    text-align: center;
+    font-size: 7em; 
+}
+
+.operations {
+    margin-top: 40px;
+    display: flex;
+}
+
+button {
+    color: white;
+    margin-left: 45px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.increment {
+    background-color: green;
+}
+
+.increment:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.clear {
+    background-color: gray;
+}
+
+.clear:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+.decrement {
+    background-color: red;
+}
+
+.decrement:hover {
+    background-color: darkred;
+    cursor: pointer;
+}
+
+input {
+    margin-left: 5px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 15px;
+    text-align: center;
+}
