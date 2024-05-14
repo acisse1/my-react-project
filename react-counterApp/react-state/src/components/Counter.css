@@ -56,9 +56,23 @@ button {
 
 input {
     margin-left: 5px;
-    width: 100px;
-    height: 50px;
+    width: 80px;
+    height: 40px;
     border: 1px solid;
     border-radius: 15px;
     text-align: center;
+    background-color: gray;
+    font-size: large;
+}
+
+p {
+    margin-left: 15px;
+}
+
+.factor {
+    background-color: blue;
+}
+
+.factor:hover {
+    background-color: darkblue;
 }
